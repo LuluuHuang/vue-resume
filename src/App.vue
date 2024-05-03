@@ -2,10 +2,13 @@
 import { RouterLink, RouterView } from 'vue-router'
 import MyInfo from './components/MyInfo.vue'
 import MyProject from './components/MyProject.vue'
+import MyFooter from './components/MyFooter.vue'
+
 export default{
   components:{
     MyInfo,
-    MyProject
+    MyProject,
+    MyFooter
   }
 }
 </script>
@@ -15,6 +18,9 @@ export default{
     <div class="container">
       <MyInfo></MyInfo>
       <MyProject></MyProject>
+    </div>
+    <div class="container-fluid p-0">
+        <MyFooter></MyFooter>
     </div>
   </div>
 </template>
