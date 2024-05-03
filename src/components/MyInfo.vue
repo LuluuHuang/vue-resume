@@ -27,11 +27,11 @@
     export default {
         data(){
             return{
-                bgImg:'/img/bg2.jpg',
+                bgImg:'./img/bg2.jpg',
                 infos:{
                     name:'黃堉茹',
                     engName:'Lulu Huang',
-                    pic:'/img/lu.jpg',
+                    pic:'./img/lu.jpg',
                     skills:[
                         'JavaScript',
                         'HTML',
