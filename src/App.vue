@@ -1,38 +1,38 @@
 <script>
-import { RouterLink, RouterView } from 'vue-router'
+// import { RouterLink, RouterView } from 'vue-router'
 import MyInfo from './components/MyInfo.vue'
 import MyProject from './components/MyProject.vue'
 import MyFooter from './components/MyFooter.vue'
 
 export default{
-  components:{
-    MyInfo,
-    MyProject,
-    MyFooter
-  }
+    components:{
+        MyInfo,
+        MyProject,
+        MyFooter
+    }
 }
 </script>
 
 <template>
-  <div class="bg">
-    <div class="container">
-      <MyInfo></MyInfo>
-      <MyProject></MyProject>
+    <div class="bg">
+        <div class="container">
+        <MyInfo></MyInfo>
+        <MyProject></MyProject>
+        </div>
+        <div class="container-fluid p-0">
+            <MyFooter></MyFooter>
+        </div>
     </div>
-    <div class="container-fluid p-0">
-        <MyFooter></MyFooter>
-    </div>
-  </div>
 </template>
 
 <style lang="scss">
-  @import"./assets/all.scss";
+    @import"./assets/all.scss";
 
-  .bg{
-    background-image: url('/img/bg2.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+    .bg{
+        background-image: url('/img/bg2.jpg');
+        background-size: cover;
+        background-position: center;
+    }
 .sec1{
     height: 100vh;
     img{
