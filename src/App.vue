@@ -44,7 +44,7 @@ export default{
         margin: 0;
     }
     .engName,.skills{
-        font-family:Serif ;
+        font-family:Times New Roman;
     }
     ul{
         margin: 0;

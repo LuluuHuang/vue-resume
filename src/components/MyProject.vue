@@ -75,6 +75,18 @@ export default {
                     ]
                 },
                 {
+                    name:'旅遊網站',
+                    link:'https://luluuhuang.github.io/tourWebVue/#/',
+                    img:'./img/旅遊.jpg',
+                    skill:[
+                        'HTML',
+                        'CSS',
+                        'Bootstrap5',
+                        'SCSS',
+                        'Vue.js'
+                    ]
+                },
+                {
                     name:'中興新村現場導覽網站',
                     link:'http://zrsi.beedemo.world/',
                     img:'./img/中興.jpg',
@@ -98,38 +110,6 @@ export default {
                         'SCSS',
                         'JavaScript',
                         '串金流'
-                    ]
-                },
-                {
-                    name:'旅遊網站',
-                    link:'https://luluuhuang.github.io/tourWeb/',
-                    img:'./img/旅遊.jpg',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'SCSS',
-                        'JavaScript'
-                    ]
-                },
-                {
-                    name:'微軟官網仿切',
-                    link:'https://luluuhuang.github.io/microsoft/',
-                    img:'./img/06-微軟仿切.png',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'SCSS'
-                    ]
-                },
-                {
-                    name:'簡易零售POS系統',
-                    link:'#',
-                    img:'',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'SCSS',
-                        'Vue.js'
                     ]
                 }
             ]
