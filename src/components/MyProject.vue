@@ -66,6 +66,7 @@ export default {
                     skill:[
                         'HTML',
                         'CSS',
+                        'JavaScript',
                         'Bootstrap5',
                         'SCSS',
                     ]
