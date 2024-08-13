@@ -34,7 +34,7 @@ export default{
         background-position: center;
     }
 .sec1{
-    height: 100vh;
+    height: 90vh;
     img{
         width: 100%;
         clip-path: circle(50% at 50% 50%);

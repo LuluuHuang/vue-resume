@@ -60,6 +60,17 @@ export default {
                     ]
                 },
                 {
+                    name:'電子喜帖網站',
+                    link:'https://luluuhuang.github.io/HSWedding',
+                    img:'./img/HSWedding.jpg',
+                    skill:[
+                        'HTML',
+                        'CSS',
+                        'Bootstrap5',
+                        'SCSS',
+                    ]
+                },
+                {
                     name:'飯店官網',
                     link:'http://www.younglake.com.tw/',
                     img:'./img/水漾.jpg',
