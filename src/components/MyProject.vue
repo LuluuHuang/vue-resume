@@ -36,45 +36,6 @@ export default {
             title:'Portfolio',
             projects:[
                 {
-                    name:'個人攝影工作室形象網站',
-                    link:'https://luluuhuang.github.io/project-YTD/',
-                    img:'./img/05-昨日攝影.jpeg',
-                    skill:[
-                        'HTML',
-                        'JavaScript',
-                        'CSS',
-                        'SCSS'
-                    ]
-                },
-                {
-                    name:'飯店官網',
-                    link:'http://www.younglake.com.tw/',
-                    img:'./img/水漾.jpg',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'Bootstrap3',
-                        'JavaScript',
-                        'jQuery',
-                        'C#',
-                        'ASP.NET MVC'
-                    ]
-                },
-                {
-                    name:'電子零件公司官網',
-                    link:'https://trumps.com.tw/',
-                    img:'./img/創宇.jpg',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'Bootstrap3',
-                        'JavaScript',
-                        'jQuery',
-                        'C#',
-                        'ASP.NET MVC'
-                    ]
-                },
-                {
                     name:'旅遊網站',
                     link:'https://luluuhuang.github.io/tourWebVue/#/',
                     img:'./img/旅遊.jpg',
@@ -87,6 +48,53 @@ export default {
                     ]
                 },
                 {
+                    name:'小型POS系統',
+                    link:'https://luluuhuang.github.io/pos-system/#/',
+                    img:'./img/pos.jpg',
+                    skill:[
+                        'HTML',
+                        'CSS',
+                        'Bootstrap5',
+                        'SCSS',
+                        'Vue.js'
+                    ]
+                },
+                {
+                    name:'飯店官網',
+                    link:'http://www.younglake.com.tw/',
+                    img:'./img/水漾.jpg',
+                    skill:[
+                        'HTML',
+                        'CSS',
+                        'Bootstrap3',
+                        'JavaScript',
+                        'jQuery',
+                    ]
+                },
+                {
+                    name:'電子零件公司官網',
+                    link:'https://trumps.com.tw/',
+                    img:'./img/創宇.jpg',
+                    skill:[
+                        'HTML',
+                        'CSS',
+                        'Bootstrap3',
+                        'JavaScript',
+                        'jQuery',
+                    ]
+                },
+                {
+                    name:'個人攝影工作室形象網站',
+                    link:'https://luluuhuang.github.io/project-YTD/',
+                    img:'./img/05-昨日攝影.jpeg',
+                    skill:[
+                        'HTML',
+                        'JavaScript',
+                        'CSS',
+                        'SCSS'
+                    ]
+                },
+                {
                     name:'中興新村現場導覽網站',
                     link:'http://zrsi.beedemo.world/',
                     img:'./img/中興.jpg',
@@ -96,8 +104,6 @@ export default {
                         'Bootstrap3',
                         'JavaScript',
                         'jQuery',
-                        'C#',
-                        'ASP.NET MVC'
                     ]
                 },
                 {
