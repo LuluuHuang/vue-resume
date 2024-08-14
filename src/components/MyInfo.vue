@@ -39,10 +39,10 @@
                     skills:[
                         'HTML',
                         'CSS',
-                        'SCSS',
-                        'Bootstrap',
                         'JavaScript ES6',
                         'Vue3',
+                        'SCSS',
+                        'Bootstrap',
                         'Git',
                         'Figma',
                     ],
