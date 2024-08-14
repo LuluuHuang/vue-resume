@@ -142,7 +142,7 @@ export default{
                 background-repeat: no-repeat;
             }
             .pillcontainer{
-                margin: 10px 10px 0 10px;
+                margin: 15px 10px 0 10px;
                 height: 20%;
                 font-family:Times New Roman;
                 span{

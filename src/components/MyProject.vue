@@ -8,7 +8,7 @@
             v-for="project in projects"
             :key="project.name"
         >
-        <a v-if="project.code" :href="project.code" class="code">
+        <a v-if="project.code" :href="project.code" class="code" target="_blank">
             原始碼
         </a>
             <div class="work_content">
@@ -22,7 +22,7 @@
                     >{{item}}</span
                 >
                 </div>
-                <a :href="project.link">
+                <a :href="project.link" target="_blank">
                     <div
                     class="pic"
                     :style="{ 'background-image': 'url(' + project.img + ')' }"
@@ -47,7 +47,8 @@ export default {
                         'CSS',
                         'Bootstrap5',
                         'SCSS',
-                        'Vue.js'
+                        'Vue3',
+                        'RWD',
                     ],
                     code:'https://github.com/LuluuHuang/tourWebVue',
                 },
@@ -60,7 +61,8 @@ export default {
                         'CSS',
                         'Bootstrap5',
                         'SCSS',
-                        'Vue.js'
+                        'Vue3',
+                        'RWD',
                     ],
                     code:'https://github.com/LuluuHuang/pos-system',
                 },
@@ -74,6 +76,7 @@ export default {
                         'JavaScript',
                         'Bootstrap5',
                         'SCSS',
+                        'RWD',
                     ],
                     code:'https://github.com/LuluuHuang/HSwedding',
                 },
@@ -87,6 +90,7 @@ export default {
                         'Bootstrap3',
                         'JavaScript',
                         'jQuery',
+                        'RWD',
                     ]
                 },
                 {
@@ -99,6 +103,7 @@ export default {
                         'Bootstrap3',
                         'JavaScript',
                         'jQuery',
+                        'RWD',
                     ]
                 },
                 {
@@ -109,7 +114,8 @@ export default {
                         'HTML',
                         'JavaScript',
                         'CSS',
-                        'SCSS'
+                        'SCSS',
+                        'RWD',
                     ],
                     code:'https://github.com/LuluuHuang/project-YTD',
                 },
@@ -123,6 +129,7 @@ export default {
                         'Bootstrap3',
                         'JavaScript',
                         'jQuery',
+                        'RWD',
                     ]
                 },
                 {
@@ -134,7 +141,7 @@ export default {
                         'CSS',
                         'SCSS',
                         'JavaScript',
-                        '串金流'
+                        '紅陽金流'
                     ]
                 }
             ]
