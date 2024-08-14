@@ -42,6 +42,12 @@ export default{
     p{
         text-align: center;
         margin: 0;
+        a{
+            color: black;
+            i{
+                font-size: 30px;
+            }
+        }
     }
     .engName,.skills{
         font-family:Times New Roman;
@@ -88,6 +94,22 @@ export default{
     .work{
         padding: 20px;
         height: 400px;
+        position: relative;
+        .code{
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #c99a93;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration:none;
+            color: white;
+        }
         .work_content{
             background-color: rgba(255, 255, 255, 0.8);
             border: 1px solid rgba(163, 161, 161, 0.5);
@@ -130,8 +152,8 @@ export default{
 
         }
     }
-    .work:hover{
-        .work_content{
+    .work{
+        .work_content:hover{
             .underline {
                 width: 80%;
             }

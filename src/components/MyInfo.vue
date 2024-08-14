@@ -4,6 +4,8 @@
             <img :src="infos.pic" alt="" class="mb-3"/>
             <p class="fs-2 chName fw-bolder">{{infos.name}}</p>
             <p class="fs-3 engName">{{infos.engName}}</p>
+            <p><a :href="infos.github"><i class="bi bi-github"></i></a></p>
+            
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-12 animate__animated animate__fadeInUp">
             <p class="fs-3 btnStyle">技能</p>
@@ -32,14 +34,17 @@
                 infos:{
                     name:'黃堉茹',
                     engName:'Lulu Huang',
+                    github:'https://github.com/LuluuHuang',
                     pic:'./img/lu.jpg',
                     skills:[
-                        'JavaScript',
                         'HTML',
                         'CSS',
                         'SCSS',
-                        'Vue.js',
                         'Bootstrap',
+                        'JavaScript ES6',
+                        'Vue3',
+                        'Git',
+                        'Figma',
                     ],
                     experience:[
                         {

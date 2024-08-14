@@ -8,6 +8,9 @@
             v-for="project in projects"
             :key="project.name"
         >
+        <a v-if="project.code" :href="project.code" class="code">
+            原始碼
+        </a>
             <div class="work_content">
                 <p>{{project.name}}</p>
                 <div class="underline"></div>
@@ -45,7 +48,8 @@ export default {
                         'Bootstrap5',
                         'SCSS',
                         'Vue.js'
-                    ]
+                    ],
+                    code:'https://github.com/LuluuHuang/tourWebVue',
                 },
                 {
                     name:'小型POS系統',
@@ -57,11 +61,12 @@ export default {
                         'Bootstrap5',
                         'SCSS',
                         'Vue.js'
-                    ]
+                    ],
+                    code:'https://github.com/LuluuHuang/pos-system',
                 },
                 {
                     name:'電子喜帖網站',
-                    link:'https://luluuhuang.github.io/HSWedding',
+                    link:'https://luluuhuang.github.io/HSwedding',
                     img:'./img/HSWedding.jpg',
                     skill:[
                         'HTML',
@@ -69,7 +74,8 @@ export default {
                         'JavaScript',
                         'Bootstrap5',
                         'SCSS',
-                    ]
+                    ],
+                    code:'https://github.com/LuluuHuang/HSwedding',
                 },
                 {
                     name:'飯店官網',
@@ -104,7 +110,8 @@ export default {
                         'JavaScript',
                         'CSS',
                         'SCSS'
-                    ]
+                    ],
+                    code:'https://github.com/LuluuHuang/project-YTD',
                 },
                 {
                     name:'中興新村現場導覽網站',
