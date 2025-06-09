@@ -119,31 +119,31 @@ export default {
                     ],
                     code:'https://github.com/LuluuHuang/project-YTD',
                 },
-                {
-                    name:'中興新村現場導覽網站',
-                    link:'http://zrsi.beedemo.world/',
-                    img:'./img/中興.jpg',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'Bootstrap3',
-                        'JavaScript',
-                        'jQuery',
-                        'RWD',
-                    ]
-                },
-                {
-                    name:'生技公司一頁式訂購網站',
-                    link:'http://www.fhmedical.com.tw/',
-                    img:'./img/芳和.jpg',
-                    skill:[
-                        'HTML',
-                        'CSS',
-                        'SCSS',
-                        'JavaScript',
-                        '紅陽金流'
-                    ]
-                }
+                // {
+                //     name:'中興新村現場導覽網站',
+                //     link:'http://zrsi.beedemo.world/',
+                //     img:'./img/中興.jpg',
+                //     skill:[
+                //         'HTML',
+                //         'CSS',
+                //         'Bootstrap3',
+                //         'JavaScript',
+                //         'jQuery',
+                //         'RWD',
+                //     ]
+                // },
+                // {
+                //     name:'生技公司一頁式訂購網站',
+                //     link:'http://www.fhmedical.com.tw/',
+                //     img:'./img/芳和.jpg',
+                //     skill:[
+                //         'HTML',
+                //         'CSS',
+                //         'SCSS',
+                //         'JavaScript',
+                //         '紅陽金流'
+                //     ]
+                // }
             ]
         }
     }
