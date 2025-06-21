@@ -81,6 +81,17 @@ export default {
                     code:'https://github.com/LuluuHuang/HSwedding',
                 },
                 {
+                    name:'Medium Blog仿切(Tailwind)',
+                    link:'https://luluuhuang.github.io/medium/',
+                    img:'./img/medium.png',
+                    skill:[
+                        'HTML',
+                        'CSS',
+                        'Tailwind',
+                        'RWD',
+                    ]
+                },
+                {
                     name:'飯店官網',
                     link:'http://www.younglake.com.tw/',
                     img:'./img/水漾.jpg',

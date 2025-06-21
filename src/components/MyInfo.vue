@@ -43,6 +43,7 @@
                         'Vue3',
                         'SCSS',
                         'Bootstrap',
+                        'Tailwind',
                         'Git',
                         'Figma',
                     ],
