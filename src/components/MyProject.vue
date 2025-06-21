@@ -81,7 +81,7 @@ export default {
                     code:'https://github.com/LuluuHuang/HSwedding',
                 },
                 {
-                    name:'Medium Blog仿切(Tailwind)',
+                    name:'Medium Blog(Tailwind)',
                     link:'https://luluuhuang.github.io/medium/',
                     img:'./img/medium.png',
                     skill:[
